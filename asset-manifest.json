@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vinaykumarbtech/MERNSTACK-test.git/static/css/main.3297aead.css",
+    "main.js": "/vinaykumarbtech/MERNSTACK-test.git/static/js/main.c912dae1.js",
+    "static/js/373.e4c6145e.chunk.js": "/vinaykumarbtech/MERNSTACK-test.git/static/js/373.e4c6145e.chunk.js",
+    "index.html": "/vinaykumarbtech/MERNSTACK-test.git/index.html",
+    "main.3297aead.css.map": "/vinaykumarbtech/MERNSTACK-test.git/static/css/main.3297aead.css.map",
+    "main.c912dae1.js.map": "/vinaykumarbtech/MERNSTACK-test.git/static/js/main.c912dae1.js.map",
+    "373.e4c6145e.chunk.js.map": "/vinaykumarbtech/MERNSTACK-test.git/static/js/373.e4c6145e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3297aead.css",
+    "static/js/main.c912dae1.js"
+  ]
+}
