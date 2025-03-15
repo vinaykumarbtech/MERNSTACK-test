@@ -1,0 +1,136 @@
+/* Set background image with a dark overlay for better contrast */
+body {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.qxF5WduuOhZcZ8qd2d_65QAAAA&pid=Api&P=0&h=220');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Add a dark overlay effect */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+    z-index: -1;
+}
+
+/* Main container */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.9); /* Light background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Input fields */
+.input-text {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Dropdown styling */
+.dropdown {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Translate button */
+.translate-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.translate-button:hover {
+    background-color: #0056b3;
+}
+
+/* Translated text output */
+.translated-text {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Authentication container (Login/Register) */
+.auth-container {
+    text-align: center;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Input fields for authentication */
+.auth-container input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login & Register buttons */
+.auth-container button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+    background-color: #cc5200;
+}
+
+/* Navigation links */
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
